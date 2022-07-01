@@ -1,12 +1,9 @@
 package ac.obl.shaolin
 
-/*
-
-Dužina: 24585
-Vreme: 12s (!)
-
-*/
-
+/**
+ * Length: 24585
+ * Time: 12s (!)
+ */
 class Algo3(
     fundus: Fundus,
     log: Boolean,

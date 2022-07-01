@@ -1,12 +1,9 @@
 package ac.obl.shaolin
 
-/*
-
-Dužina: 24585
-Vreme: 1500ms
-
-*/
-
+/**
+ * Length: 24585
+ * Time: 1500ms
+ */
 class Algo2(fundus: Fundus, log: Boolean) : Algo1(fundus, log) {
 
     override fun setup(): Algo2 {

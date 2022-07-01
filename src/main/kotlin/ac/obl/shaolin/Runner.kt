@@ -9,8 +9,8 @@ import kotlin.system.measureTimeMillis
 const val ALGO = 4
 const val LOG = true
 
-const val FILE = "small.txt"
-//const val FILE = "rijeci.txt"
+//const val FILE = "small.txt"
+const val FILE = "rijeci.txt"
 
 fun main() {
     val rawWords = loadWords(FILE)

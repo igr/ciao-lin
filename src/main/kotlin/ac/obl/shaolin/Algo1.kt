@@ -1,18 +1,12 @@
 package ac.obl.shaolin
 
-/*
-
-Dužina: 22668
-Vreme: 320ms
-
-MAX-MAX algoritam. Počinje od ćelije (para) koja ima najviše reči.
-Nastavlja se sa ćelijom koja takođe ima maksimalan broj reči.
-
-Ukoliko ćelija nema ni jednu slobodnu preostalu reč, markira se kao potrošena,
+/**
+ * Length: 22668
+ * Time: 320ms
+ * MAX-MAX (?) algoritam. Počinje od ćelije (para) koja ima najviše reči. Nastavlja se sa ćelijom koja takođe ima maksimalan broj reči.
+ * Ukoliko ćelija nema ni jednu slobodnu preostalu reč, markira se kao potrošena,
 i radi se rollback.
-
-*/
-
+ */
 open class Algo1(val fundus: Fundus, val log: Boolean = false) : Algo {
 
     protected val chain = mutableListOf<Cell>()
