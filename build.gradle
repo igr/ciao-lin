@@ -1,0 +1,24 @@
+plugins {
+    id("application")
+    id("org.jetbrains.kotlin.jvm") version "${kotlinVersion}"
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'ac.obl.shaolin'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'ac.obl.shaolin.RunnerKt'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
